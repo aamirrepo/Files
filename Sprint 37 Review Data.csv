@@ -1,0 +1,108 @@
+﻿ID,Work Item Type,Title,Assigned To,State,Tags,Discipline,Completed By,Completed Date,Fixed By,Fixed Date,Original Estimate,Completed Work,Remaining Work
+"21405","Defect","IP encounter and episode need to be committed /rolled back based on admission output","Vipinraj <INFOLOGICS\vipinraj>","Completed","KIMS TVM","Bug Fixing",,,,,"8","5","0"
+"37655","Issue","Bill cancellation entries are not reflected in collection report","Subisha P. <INFOLOGICS\subisha>","Resolved","KIMS","Analysis",,,,,"4","4","0"
+"42668","Task","Backendbilling (patinternalservicedetails) Error message needs to be logged in patinternalservicedetails table.","Vipinraj <INFOLOGICS\vipinraj>","Resolved","55; 55.4; KIMS TVM","Development",,,,,"8","8","0"
+"42823","Requirement","Miscellaneous - Sprint 37","BaNuSha <INFOLOGICS\banusha>","Proposed",,,,,,,,,
+"43731","Bug","Naufar 123->Billing->Availed Services ->Bill Entries getting doubled, if more than 1 service is billed under a package","Eva <INFOLOGICS\eva>","Closed","Naufar",,,,,,,,
+"43754","Requirement","Package Function Optimiztion: Need to check package flow","Pranav <INFOLOGICS\pranav>","Proposed","55; KIMS TVM","Testing",,,,,"4","0","4"
+"43760","Task"," Test Case preparation-Advance Collection Validation for 2 lakh Cash Collection","Pranav <INFOLOGICS\pranav>","Closed","KIMS TVM","Testing",,,,,"6","2","0"
+"44508","Defect","Bug 48892: 111: Masters->Contract Master: Advance Amount collection not asking while admitting a patient ,even though checkbox selected in the contract master","Chembakam N S <INFOLOGICS\chembakam>","Completed","KIMS","Bug Fixing",,,"Chembakam","11/21/2025 12:00:00 AM","1","1","0"
+"44509","Defect","Bug 48835: 111: FO - Service BIlling- CDT is not loading for service orders.","Chembakam N S <INFOLOGICS\chembakam>","Completed","Naufar","Bug Fixing",,,"Chembakam","11/22/2025 12:00:00 AM","1","1","0"
+"44513","Defect","Bug 48692: 133 {Service Billing} Wrong validation showing when we try to bill a service have priority charge.","Chembakam N S <INFOLOGICS\chembakam>","Completed","KIMS","Bug Fixing",,,"Chembakam","11/21/2025 12:00:00 AM","2","2","0"
+"44543","Requirement","Backendbilling exceptions needs to be viewable in backend billing screen","Vipinraj <INFOLOGICS\vipinraj>","Proposed","KIMS TVM",,,,,,,,
+"45150","Bug","140: FO- Billing-  Currently Telemetry charges are generating after execution marking-  Bill need to generate without marking exceution. PFA ","Priyanga M <INFOLOGICS\priyanga>","Resolved","55.4; KIMS TVM","Bug Fixing",,,,,,,
+"45530","Task","Implement a RabbitMQ consumer in the updateBillDtlsOrder function to handle all log table updates async.","Hazim Altaf Bhat <INFOLOGICS\hazim>","Closed","55; 55.4; KIMS TVM","Development","Hazim Altaf Bhat","11/25/2025 12:00:00 AM",,,"16","16","0"
+"45631","Task","Revenueallocation-Table Entry checking Query","BaNuSha <INFOLOGICS\banusha>","Closed","KIMS TVM","Development",,,,,"8","8","0"
+"45717","Bug","140 {Unit Charge} Charge calculation for time-based billing in scheme change is wrong. ","sreeja c. <INFOLOGICS\sreeja>","Resolved","KIMS TVM; Orion Iteration - 29  05 Nov to 11 Nov",,,,,,,,
+"46063","Requirement","Billing details push to Coder Review- BatchWise","Mahesh <INFOLOGICS\mahesh>","Resolved","Naufar",,,,,,,,
+"46064","Task","Select billing data from Billing and push to RCM batch wise","Mahesh <INFOLOGICS\mahesh>","Resolved","Naufar","Development","Mahesh","11/20/2025 12:00:00 AM",,,"8","8","0"
+"46069","Task","Telemetry service cancellation flow","Mahesh <INFOLOGICS\mahesh>","Resolved","KIMS TVM","Analysis","Mahesh","11/19/2025 12:00:00 AM",,,"4","4","0"
+"47618","Requirement"," Advance Collection Validation for 2 lakh Cash Collection need to verify","Pranav <INFOLOGICS\pranav>","Proposed","KIMS TVM",,,,,,,,
+"47650","Defect","Task 30333: Verify and Correct Package Closure Time in Billing and Revenue Tables","biji <INFOLOGICS\biji>","Completed","55.4","Development",,,"biji","11/19/2025 12:00:00 AM","2","3","0"
+"47694","Bug","202->30150->F0->RCM->Backend billing->For selfpay patient, package- covered service executed from the EMR note  is not showing in the backend billing screen.","Liya Mariam <INFOLOGICS\liya.mariam>","Closed","Naufar",,,,,,,,
+"47706","Task","BilledFromid=3  in packageallocationlog on manual package allocation","biji <INFOLOGICS\biji>","Resolved","Naufar","Analysis","biji","11/25/2025 12:00:00 AM",,,"8","6","0"
+"47985","Requirement","Create new project for Resubmit screen using AI","Chembakam N S <INFOLOGICS\chembakam>","Proposed","KIMS; Naufar",,,,,,,,
+"48011","Requirement","Resubmission page - UI and API wiring","Chembakam N S <INFOLOGICS\chembakam>","Proposed","KIMS","Development",,,,,"5","0","5"
+"48112","Issue","Alignement incorrect in Advance Usage","Chembakam N S <INFOLOGICS\chembakam>","Closed","KIMS; Naufar","Bug Fixing",,,"Chembakam","11/17/2025 12:00:00 AM","1","2","0"
+"48200","Defect","schemediscount column in the billdetails table is wrong. Please verify the scheme discount logic and check all bill entries (Consultation, Radiology, Procedure, Lab, etc.).","Hazim Altaf Bhat <INFOLOGICS\hazim>","Completed","55; 55.4; KIMS TVM","Bug Fixing",,,,,"6","0","0"
+"48296","Requirement","Requirement 45843: Asynchronous logging -> Log tables to be logged using rabbitmq instead of trigger","Ayyappan <INFOLOGICS\ayyappan>","Resolved",,,,,,,,,
+"48327","Defect","Bug 47694: 202->30150->F0->RCM->Backend billing->For selfpay patient, package- covered service executed from the EMR note is not showing in the backend billing screen.","biji <INFOLOGICS\biji>","Completed","Naufar","Bug Fixing",,,"biji","11/20/2025 12:00:00 AM","8","2","0"
+"48329","Task","100% copayment verification  in Availed service and interim invoice","biji <INFOLOGICS\biji>","Resolved","Naufar","Analysis","biji","11/25/2025 12:00:00 AM",,,"8","8","0"
+"48395","Defect","Bug 48153: 111- OP Panel - Package Details - Medicine Name is duplicating in Service Details list","Ayyappan <INFOLOGICS\ayyappan>","Completed","KIMS TVM","Bug Fixing",,,,,"6","6","0"
+"48401","Requirement","Backened billing screen changes","Subisha P. <INFOLOGICS\subisha>","Closed",,,,,,,,,
+"48402","Task","Unit Testing the backened billing screen-filteration and pagination-pharmacy screen","Subisha P. <INFOLOGICS\subisha>","Resolved","55","Testing",,,,,"4","5","0"
+"48414","Task","Revenue date mismatch-> For cancellations, request date is taken instead of the actual cancelled date","Chembakam N S <INFOLOGICS\chembakam>","Resolved","KIMS","Testing","Chembakam","11/25/2025 12:00:00 AM",,,"3","6","0"
+"48417","Task","Account Mapping Validation needs to be modified ","Pranav <INFOLOGICS\pranav>","Closed","55; 55.4; KIMS TVM","Testing",,,,,"5","5","0"
+"48428","Task","OP cash Package testing -Advance package and revenue","Pranav <INFOLOGICS\pranav>","Closed","KIMS TVM","Testing",,,,,"8","7","0"
+"48431","Task","Service billing with panel test","Pranav <INFOLOGICS\pranav>","Closed","KIMS TVM","Testing",,,,,"8","8","0"
+"48436","Requirement","QA verification Sprint 37","Pranav <INFOLOGICS\pranav>","Proposed",,,,,,,,,
+"48445","Task","Sprint 37_Azure Sprint review and planning/Team work review , coordination  and follow-up","BaNuSha <INFOLOGICS\banusha>","Closed","KIMS TVM","Meetings/Plannings",,,,,"8","8","0"
+"48449","Task","billallocation-Table Entry checking Query","BaNuSha <INFOLOGICS\banusha>","Closed","KIMS TVM","Analysis",,,,,"8","6","0"
+"48459","Defect","Bug 45171: Naufar-> Client bug->Auto Rounding occurs during package allocation & deallocation","Chembakam N S <INFOLOGICS\chembakam>","Completed","Naufar","Bug Fixing","Chembakam","11/19/2025 12:00:00 AM","Chembakam","11/25/2025 12:00:00 AM","1","1","0"
+"48482","Task","Verify Creating Outsider patient","Mahapara Ashraf <INFOLOGICS\mahapara>","Resolved","KIMS TVM","Testing","Mahapara Ashraf","11/19/2025 12:00:00 AM",,,"4","4","0"
+"48489","Bug","KIMS-->111-->FO-->Service Billing-->Not able to bill lab services for outsiders in a scenario. Block message is showing even though age and gender is present. PFA","Sriram L. <INFOLOGICS\sriram>","Resolved","55.4; KIMS TVM",,,,,,,,
+"48515","Defect","Bug 43731: Naufar 123->Billing->Availed Services ->Bill Entries getting doubled, if more than 1 service is billed under a package","biji <INFOLOGICS\biji>","Completed","Naufar","Bug Fixing",,,"biji","11/20/2025 12:00:00 AM","6","6","0"
+"48518","Task","Verify Advance collection ","Mahapara Ashraf <INFOLOGICS\mahapara>","Resolved","55.4; KIMS TVM","Testing","Mahapara Ashraf","11/20/2025 12:00:00 AM",,,"8","8","0"
+"48522","Task","Daily Scrum Sprint 37","Mohdaamir <INFOLOGICS\Mohdaamir>","Closed","Naufar","Meetings/Plannings","Mohdaamir","11/25/2025 12:00:00 AM",,,"5","5","0"
+"48523","Task","Team work review , coordination  and follow-up","Mohdaamir <INFOLOGICS\Mohdaamir>","Closed","Naufar","Meetings/Plannings","Mohdaamir","11/25/2025 12:00:00 AM",,,"30","30","0"
+"48524","Task","Sprint review and planning","Mohdaamir <INFOLOGICS\Mohdaamir>","Closed","Naufar","Meetings/Plannings","Mohdaamir","11/25/2025 12:00:00 AM",,,"5","4","0"
+"48526","Defect","Bug 48483: 123;30150->F0->Package Allocation-> Even if tariff is already mapped and after selecting service from package tab PCST is occuring and amount id displaying as 0.","Ayyappan <INFOLOGICS\ayyappan>","Completed","Naufar","Bug Fixing",,,,,"8","8","0"
+"48533","Bug","111 {Package Bill} Cash Package Bill number prefix show same as laboratory service. ","Priyanga M <INFOLOGICS\priyanga>","Closed","KIMS TVM","Bug Fixing",,,"Hazim Altaf Bhat","11/20/2025 12:00:00 AM",,,
+"48534","Requirement","Statement Generation under RCM","Chembakam N S <INFOLOGICS\chembakam>","Proposed","KIMS; Naufar",,,,,,,,
+"48537","Defect","140:  FO- OR billing-  Parameters are duplicating. PFA  - Copy","Ayyappan <INFOLOGICS\ayyappan>","Completed","55.4; KIMS TVM; Ripple Effect","Bug Fixing",,,,,"5","5","0"
+"48548","Defect","Bug 48475: 123;30150->F0->Package Allocation->Even without mapping tariff setting, user is allowing to bill from package tab.","Ayyappan <INFOLOGICS\ayyappan>","Completed","Naufar","Bug Fixing",,,,,"8","8","0"
+"48549","Defect","KIMS-->111-->FO-->Service Billing-->Not able to bill lab services for outsiders in a scenario. Block message is showing even though age and gender is present. PFA - Copy","Subisha P. <INFOLOGICS\subisha>","Completed","55.4; KIMS TVM","Analysis",,,,,"2","3","0"
+"48554","Task","Submission issues need to be checked","Vipinraj <INFOLOGICS\vipinraj>","Resolved","ASTER","Bug Fixing",,,,,"8","8","0"
+"48560","Defect","Mobile app episode encounter json details (8443)  55 enviornment - Copy","BaNuSha <INFOLOGICS\banusha>","Completed","55","Bug Fixing",,,,,"8","4","0"
+"48562","Defect","111 {Package Bill} Cash Package Bill number prefix show same as laboratory service.  - Copy","BaNuSha <INFOLOGICS\banusha>","Completed","KIMS TVM","Bug Fixing",,,,,"2","2","0"
+"48566","Defect","Defect 48562: 111 {Package Bill} Cash Package Bill number prefix show same as laboratory service. - Copy","BaNuSha <INFOLOGICS\banusha>","Completed","KIMS TVM; PreProd","Bug Fixing",,,,,"2","2","0"
+"48688","Issue","PCTST on selecting secrvice in 30060","BaNuSha <INFOLOGICS\banusha>","Closed","55","Bug Fixing",,,,,"1","1","0"
+"48712","Defect","BugID : 48533 -111 {Package Bill} Cash Package Bill number prefix show same as laboratory service. ","Hazim Altaf Bhat <INFOLOGICS\hazim>","Completed","KIMS TVM","Bug Fixing",,,"Hazim Altaf Bhat","11/20/2025 12:00:00 AM","8","8","0"
+"48749","Bug","133 {Invoice Cancel} Wrong validation showing when do invoice cancel in cancel and refund screen. ","Pranav <INFOLOGICS\pranav>","Closed","KIMS TVM; verified in 55",,,,,,,,
+"48768","Task","FO-billing-Services are getting duplicated when added to grid during slowness","Subisha P. <INFOLOGICS\subisha>","Closed","55; KIMS TVM","Development",,,,,"8","2","0"
+"48772","Defect","Bug Fixing - Log tables to be logged using rabbitmq instead of trigger","Ayyappan <INFOLOGICS\ayyappan>","Completed","55","Bug Fixing",,,,,"2","0.5","0"
+"48776","Defect","Release 55.1.10.1 - Bug 39465: Ardens (6030)->live issue->Cash and advance receipts are not in proper series{Issue reported in live client shared excel sheet}","Ayyappan <INFOLOGICS\ayyappan>","Completed","55.1.10.1; Ardens","Development",,,,,"1","1","0"
+"48798","Defect","111(Mobile app)->IP bill view->Amount showing in IP bill view of mobile app is not same as the amount showing in interim bill(Current IP patient).PFA - Copy","BaNuSha <INFOLOGICS\banusha>","Completed","kims mobile app; KIMS TVM","Bug Fixing",,,,,"2","2","0"
+"48830","Defect","Bug 48236: ERP difference","Mahesh <INFOLOGICS\mahesh>","Completed","ASTER","Bug Fixing",,,"Mahesh","11/25/2025 12:00:00 AM","6","7","0"
+"48835","Bug","111: FO - Service BIlling- CDT  is not loading for service orders. ","Priyanga M <INFOLOGICS\priyanga>","Resolved","55.4; KIMS TVM",,,,,,,,
+"48882","Bug","111:  FO- BIlling- While closing the package manually- Prints are getting blank. ","Priyanga M <INFOLOGICS\priyanga>","Closed","55.4; KIMS TVM","Bug Fixing",,,,,,,
+"48892","Bug","111: Masters->Contract Master: Advance Amount collection not asking while admitting a patient ,even though checkbox  selected in the contract master","Ashwathi K. <INFOLOGICS\ashwathi.k>","Closed","55.4; KIMS TVM",,,,,,,,
+"48922","Defect","Telemetry Services duplicating in 111 environment ","Mahesh <INFOLOGICS\mahesh>","Completed","KIMS TVM","Bug Fixing",,,"Mahesh","11/25/2025 12:00:00 AM","4","4","0"
+"48924","Requirement","Bug correction Sprint37","Chembakam N S <INFOLOGICS\chembakam>","Closed","KIMS; Naufar",,,,,,,,
+"48939","Task","Verifying payertype and payerid is null in KIMS environment","Chembakam N S <INFOLOGICS\chembakam>","Closed","KIMS","Analysis","Chembakam","11/21/2025 12:00:00 AM",,,"4","4","0"
+"48941","Bug","111:  FO- Backend billing- Autobilling Services-  Billed amount & Bill no is not updating . PFA ","Priyanga M <INFOLOGICS\priyanga>","Resolved","55.4; KIMS TVM",,,,,,,,
+"48946","Bug","111 :  Finalbilling- Interim bills--  Amount showing Zero in all & date wise for time based billed services- PFA ","Seethu <INFOLOGICS\seethu>","Active","55.4; KIMS TVM",,,,,,,,
+"48951","Bug","123:30150->FO->RCM->Encounter Default Scheme-> After setting a scheme as default from encounter default scheme and saving PCST is occuring ","Liya Mariam <INFOLOGICS\liya.mariam>","Closed","Naufar; Ripple Effect",,,,,,,,
+"48956","Bug","KIMS-->111-->FO-->Package utilization-->Services are not listing in pending services tab. PFA","Chembakam N S <INFOLOGICS\chembakam>","Resolved","55.4; KIMS TVM",,,,,,,,
+"48964","Defect","Bug 48882: 111: FO- BIlling- While closing the package manually- Prints are getting blank.","Mahesh <INFOLOGICS\mahesh>","Completed","KIMS TVM","Bug Fixing",,,"Mahesh","11/21/2025 12:00:00 AM","6","2","0"
+"48970","Defect","Bug 48956: KIMS-->111-->FO-->Package utilization-->Services are not listing in pending services tab. PFA","Chembakam N S <INFOLOGICS\chembakam>","Completed","KIMS","Bug Fixing",,,"Chembakam","11/21/2025 12:00:00 AM","0.5","0.5","0"
+"48978","Task","Package tariff verfication - packagemastpatientid should be passed for package selection and Consultation radio selection","Chembakam N S <INFOLOGICS\chembakam>","Closed","KIMS","Analysis","Chembakam","11/14/2025 12:00:00 AM",,,"4","2","0"
+"48996","Defect","Release 55.3.1-Bug 48483: 123;30150->F0->Package Allocation->After adding a new group to an existing package and selecting the service from package tab triggers a PCST error and amount is displayed as 0 eventhough tariff is already mapped.","Ayyappan <INFOLOGICS\ayyappan>","Completed","Naufar","Bug Fixing",,,,,"1","1","0"
+"49045","Defect","Bug 48951: 123:30150->FO->RCM->Encounter Default Scheme-> After setting a scheme as default from encounter default scheme and saving PCST is occuring","biji <INFOLOGICS\biji>","Completed","Naufar","Bug Fixing",,,"biji","11/24/2025 12:00:00 AM","4","4","0"
+"49050","Task","verify bill cancellation and refund","Mahapara Ashraf <INFOLOGICS\mahapara>","Resolved","KIMS TVM","Testing",,,,,"16","16","0"
+"49054","Task","Backendbilling (patinternalservicedetails) Error message needs to be logged in patinternalservicedetails table.","Vipinraj <INFOLOGICS\vipinraj>","Resolved","KIMS","Bug Fixing",,,,,"8","6","0"
+"49067","Task","Remarks not working for Credit billing","Chembakam N S <INFOLOGICS\chembakam>","Closed","KIMS; Naufar","Analysis","Chembakam","11/24/2025 12:00:00 AM",,,"0.5","0.5","0"
+"49086","Defect","111:  FO- Backend billing- Autobilling Services-  Billed amount & Bill no is not updating . PFA  - Copy","BaNuSha <INFOLOGICS\banusha>","Completed","55.4; KIMS TVM","Analysis",,,,,"1","1","0"
+"49090","Defect","6030->Ardens->Billing Remarks are not captured in printable forms(Issue reported from client shared excel sheet)","Chembakam N S <INFOLOGICS\chembakam>","Completed","55.1.10.1; All Versions; Ardens; client bug; KIMS TVM","Bug Fixing",,,"Chembakam","11/24/2025 12:00:00 AM","2","2","0"
+"49098","Task","verify Packages","Mahapara Ashraf <INFOLOGICS\mahapara>","Resolved","KIMS TVM","Testing",,,,,"8","8","0"
+"49102","Defect","Bug 48707: 111: Finalbilling- Interim bill- for package billed patient - Selecting all-- showing PCST. PFA","Chembakam N S <INFOLOGICS\chembakam>","Completed","KIMS","Bug Fixing",,,"Chembakam","11/24/2025 12:00:00 AM","4","4","0"
+"49119","Task","Integration from sprint55 to sprint55.4. Implement rabbitmq consumer for all the log table insertion in async","Ayyappan <INFOLOGICS\ayyappan>","Closed","55.4","Development",,,,,"32","20","0"
+"49121","Bug","133 {Availed Service} Active encounter didn't open when we open the availed service screen. ","Pranav <INFOLOGICS\pranav>","Closed","KIMS TVM",,,,,,,,
+"49126","Bug","111 {Account Mapping} Account split up showing instead of bill group in account mapping for service.","Pranav <INFOLOGICS\pranav>","Resolved","KIMS TVM; verified in 55",,,,,,,,
+"49181","Task","Modifiy the enumerator values for billedfrom.","BaNuSha <INFOLOGICS\banusha>","Closed","55; 55.4; KIMS TVM","Development",,,,,"3","3","0"
+"49189","Task","RCM Discussions","Vipinraj <INFOLOGICS\vipinraj>","Resolved","55.1","Meetings/Plannings",,,,,"8","8","0"
+"49217","Test Case","Telemetry charges-- For IP patients ","Priyanga M <INFOLOGICS\priyanga>","Design",,,,,,,,,
+"49265","Task","verify billing laboratory,radiology services.","Mahapara Ashraf <INFOLOGICS\mahapara>","Resolved","KIMS TVM","Testing","Mahapara Ashraf","11/19/2025 12:00:00 AM",,,"4","4","0"
+"49300","Task","In Package tab, ""Payer details not found. Please verify contract""' validation is showing if payerid or payertype is null","Chembakam N S <INFOLOGICS\chembakam>","Closed","KIMS","Bug Fixing","Chembakam","11/25/2025 12:00:00 AM",,,"4","2","0"
+"49301","Defect","Bug 48946: 111 : Finalbilling- Interim bills-- Amount showing Zero in all & date wise for time based billed services- PFA","Vipinraj <INFOLOGICS\vipinraj>","Completed","KIMS","Bug Fixing",,,,,"8","8","0"
+"49312","Defect","Bug 45150: 140: FO- Billing- Currently Telemetry charges are generating after execution marking- Bill need to generate without marking exceution. PFA","Mahesh <INFOLOGICS\mahesh>","Completed","KIMS TVM","Bug Fixing",,,"Mahesh","11/25/2025 12:00:00 AM","6","2","0"
+"49368","Defect","133 {Billing} Can't be able to bill. Wrong validation showing.  - Copy","BaNuSha <INFOLOGICS\banusha>","Completed","KIMS TVM","Bug Fixing",,,,,"2","2","0"
+"49411","Defect","Bug 48906: 123:30150->EMR->While trying to add services from exclusion group from EMR - PCST is occuring without any validation and services are auto allocating to package.","Mahesh <INFOLOGICS\mahesh>","Completed","Naufar","Bug Fixing",,,"Mahesh","11/25/2025 12:00:00 AM","4","1","0"
+"49418","Defect","8443 {Package Bill Cancel} Can't be cancel package billed in cash (Advance Package). Refund mismatch validation showing.  - Copy","BaNuSha <INFOLOGICS\banusha>","Completed","KIMS TVM","Bug Fixing",,,,,"2","2","0"
+"49423","Defect","Bug 49317: Naufar 123->Billing->PCST when trying to bill a service for an IP patient","biji <INFOLOGICS\biji>","Completed","Naufar","Bug Fixing",,,"biji","11/25/2025 12:00:00 AM","2","2","0"
+"49459","Defect","Bug 45717: 140 {Unit Charge} Charge calculation for time-based billing in scheme change is wrong.","Vipinraj <INFOLOGICS\vipinraj>","Completed","KIMS","Bug Fixing",,,,,"8","4","0"
+"49467","Defect","Bug 48956: KIMS-->111-->FO-->Package utilization-->Services are not listing in pending services tab. PFA","Chembakam N S <INFOLOGICS\chembakam>","Completed","KIMS","Bug Fixing",,,"Chembakam","11/25/2025 12:00:00 AM","4","4","0"
+"49468","Defect"," 111 Unable to renew the expired scheme for the patients. - Copy","BaNuSha <INFOLOGICS\banusha>","Completed","55.4; client bug; KIMS TVM","Bug Fixing",,,,,"2","2","0"
+"49478","Task","Bug 49201: 111 Unable to renew the expired scheme for the patients.","Chembakam N S <INFOLOGICS\chembakam>","Closed","KIMS","Bug Fixing","Chembakam","11/25/2025 12:00:00 AM",,,"1","1","0"
+"49549","Defect","Bug 49247: 8443 {Package Bill Cancel} Can't be cancel package billed in cash (Advance Package). Refund mismatch validation showing.","Chembakam N S <INFOLOGICS\chembakam>","Completed","KIMS","Bug Fixing",,,"Chembakam","11/25/2025 12:00:00 AM","2","2","0"
+"49820","Bug","111: FInalbilling- Invoice generation Prints & Reprint are blank, PFA ","Priyanga M <INFOLOGICS\priyanga>","Resolved","55.4; KIMS TVM; Ripple Effect",,,,,,,,
